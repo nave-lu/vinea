@@ -1,6 +1,6 @@
 // Génère un QR code PNG par vignoble dans /qr.
 // Changez BASE_URL quand le site est en ligne (ou : BASE_URL=https://… node generate-qr.js).
-const BASE_URL = process.env.BASE_URL || 'https://xjamie007.github.io/vinea';
+const BASE_URL = process.env.BASE_URL || 'https://nave-lu.github.io/vinea';
 
 const fs = require('fs');
 const path = require('path');
